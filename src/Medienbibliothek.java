@@ -8,7 +8,7 @@ public class Medienbibliothek {
 		this.medienliste = new ArrayList<>();
 	}
 	
-	public void mediumHinzuf�gen(Medium m)
+	public void mediumHinzufuegen(Medium m)
 	{
 		this.medienliste.add(m);
 	}
@@ -26,8 +26,8 @@ public class Medienbibliothek {
 	}
 	
 	/*
-	 * Methode, die die generische Liste durchl�uft und nur VHS aussucht,
-	 * und diesen dann als eigene Liste zur�ckgibt.
+	 * Methode, die die generische Liste durchläuft und nur VHS aussucht,
+	 * und diesen dann als eigene Liste zuräckgibt.
 	 * Zweck: Illustration der Funktionsweise des instanceof Operators.
 	 */
 	public ArrayList<VHS> alleVHSalsListe()

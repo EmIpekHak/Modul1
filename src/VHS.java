@@ -2,12 +2,12 @@
 public class VHS extends Medium {
 	
 	private int spieldauer;
-	private String qualität;
+	private String qualitaet;
 	
-	public VHS(String titel, double wert, String standort, int spieldauer, String qualität) {
+	public VHS(String titel, double wert, String standort, int spieldauer, String qualitaet) {
 		super(titel, wert, standort);
 		this.spieldauer = spieldauer;
-		this.qualität = qualität;
+		this.qualitaet = qualitaet;
 	}
 
 	public int getSpieldauer() {
@@ -18,18 +18,18 @@ public class VHS extends Medium {
 		this.spieldauer = spieldauer;
 	}
 
-	public String getQualität() {
-		return qualität;
+	public String getQualitaet() {
+		return qualitaet;
 	}
 
-	public void setQualität(String qualität) {
-		this.qualität = qualität;
+	public void setQualitaet(String qualitaet) {
+		this.qualitaet = qualitaet;
 	}
 	
-	public void anzeigen() //Überschreiben der Mutterklassenmethode
+	public void anzeigen() //berschreiben der Mutterklassenmethode
 	{
 		super.anzeigen();
-		System.out.println("[VHS] Spieldauer -> " + this.getSpieldauer() + " Qualität -> " + this.getQualität());
+		System.out.println("[VHS] Spieldauer -> " + this.getSpieldauer() + " Qualitï¿½t -> " + this.getQualitaet());
 	}
 
 }
